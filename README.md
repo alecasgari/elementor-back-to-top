@@ -44,7 +44,7 @@ You can see a live demo of this button in action here: [https://leartme.com] and
 }
 ```
 3. **Javascript:** Add this JavaScript code to a `<script>` tag in your HTML:
-```javascrip
+```javascript
 window.addEventListener('scroll', function() {
   var stickyIcon = document.querySelector('.your-sticky-icon');
   if (window.scrollY > 1000) { // Adjust the scroll threshold as needed
