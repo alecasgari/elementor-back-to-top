@@ -1,0 +1,16 @@
+/* Initial state: hidden and below its normal position */
+.your-sticky-icon {
+    opacity: 0;
+    transform: translateY(20px); /* Adjust the distance as needed */
+    transition: opacity 1.0s ease-in-out, transform 0.5s ease-in-out; /* Smooth transition */
+    position: fixed; /* Keep it fixed on the screen */
+    bottom: 20px;   /* Adjust the distance from the bottom */
+    right: 20px;   /* Position it on the right */
+    cursor: pointer;
+}
+
+/* Trigger animation after scrolling a bit */
+.your-sticky-icon.show {
+    opacity: 1;
+    transform: translateY(0);
+}
